@@ -1,0 +1,364 @@
+{
+  "config": [
+    {
+      "Parameter": [
+        {
+          "Name": "ALERTS_TOGGLE",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "ALERTS_TOGGLE",
+      "ParameterValue": false,
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "KYC_ENABLED",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "KYC_ENABLED",
+      "ParameterValue": "false",
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "TERMS_CONDITIONS_ENABLED",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "TERMS_CONDITIONS_ENABLED",
+      "ParameterValue": "false",
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "ALERTS",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "ALERTS",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "SENDER_TOGGLE",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "SENDER_TOGGLE",
+      "ParameterValue": false,
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "SENDER",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "SENDER",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "API_TOGGLE",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "API_TOGGLE",
+      "ParameterValue": false,
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "API",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "API",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "SIGNUP",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "SIGNUP",
+      "ParameterValue": false,
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "COPYRIGHTS_TOGGLE",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "COPYRIGHTS_TOGGLE",
+      "ParameterValue": false,
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "COPYRIGHTS",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "COPYRIGHTS",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "DEFAULT_SIGNIN",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "DEFAULT_SIGNIN",
+      "ParameterValue": "true",
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "GOOGLE",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "GOOGLE",
+      "ParameterValue": "false",
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "GITHUB",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "GITHUB",
+      "ParameterValue": "false",
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "BANNER",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "BANNER",
+      "ParameterValue": "false",
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "BANNER_IMAGE",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "BANNER_IMAGE",
+      "ParameterValue": null,
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "PRIMARY_TEXT",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "PRIMARY_TEXT",
+      "ParameterValue": "Seamless Synergy: Elevate Your Experience with Omni-Channel Unidirectional Excellence",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "SECONDARY_TEXT",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "SECONDARY_TEXT",
+      "ParameterValue": "Experience unparalleled convenience and efficiency with our Omni-Channel Services. Seamlessly connect and engage with your audience across multiple platforms, ensuring a cohesive and optimized experience that propels your business forward.",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "BACKGROUND_COLOR",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "BACKGROUND_COLOR",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "PORTAL_NAME",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "PORTAL_NAME",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "MAIN_LOGO",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "MAIN_LOGO",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "FAVICON_LOGO",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "FAVICON_LOGO",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "PRIMARY_COLOR",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "PRIMARY_COLOR",
+      "ParameterValue": "#ED204C",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "SECONDARY_COLOR",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "SECONDARY_COLOR",
+      "ParameterValue": "#5c5c5c",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "DIRECTION",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "DIRECTION",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "LEFT_CONTAINER",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "LEFT_CONTAINER",
+      "ParameterValue": "6",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "BACKGROUND_THEME",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "BACKGROUND_THEME",
+      "ParameterValue": "LIGHT",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "NOTIFICATION_ALERT",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "NOTIFICATION_ALERT",
+      "ParameterValue": "false",
+      "ParameterType": "BOOL",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "GOOGLE_ANALYTICS",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "GOOGLE_ANALYTICS",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    },
+    {
+      "Parameter": [
+        {
+          "Name": "GOOGLE_TAG",
+          "LanguageCode": "en"
+        }
+      ],
+      "ParameterName": "GOOGLE_TAG",
+      "ParameterValue": "",
+      "ParameterType": "STRING",
+      "TypeTag": "SAAS_CONFIG"
+    }
+  ]
+}

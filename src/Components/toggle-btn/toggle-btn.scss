@@ -1,0 +1,12 @@
+.react-bootstrap-table .custom-control-input:checked ~ .custom-control-label::before{
+    border-color: #efc32e;
+    background-color: #ffd239;
+}
+.activeToggleBtn::before{
+    border-color: #efc32e;
+    background-color: #ffd239;
+}
+.activeToggleBtn::after{
+    border-color: #fff;
+    background-color: #fff  !important;
+}

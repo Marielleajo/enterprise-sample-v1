@@ -1,0 +1,25 @@
+.PhoneNumberPicker {
+  > div {
+    height: 3rem;
+  }
+  .react-tel-input {
+    .form-control.fw-white{
+        color: white !important;
+    }
+    .form-control,
+    .flag-dropdown {
+      background-color: transparent !important;
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      &:hover {
+        background-color: transparent !important;
+      }
+    }
+    .selected-flag:hover,
+    .selected-flag:focus,
+    .flag-dropdown.open .selected-flag {
+      background-color: transparent !important;
+    }
+  }
+}

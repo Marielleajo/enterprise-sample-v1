@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+
+#TabsComponent {
+  display: flex;
+  border: 1px solid $primary-color;
+  width: fit-content;
+  border-radius: 2rem;
+  cursor: pointer;
+
+  .disabledTabs {
+    opacity: 0.7 !important;
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+  }
+
+
+  .item {
+
+    padding: .5rem 1rem;
+
+
+    &:first-child {
+      border-top-left-radius: 2rem;
+      border-bottom-left-radius: 2rem;
+    }
+
+    &:last-child {
+      border-top-right-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+    }
+
+
+    color: $primary-color;
+
+    &.active, &:hover {
+      color: $white-color;
+      background-color: $primary-color;
+    }
+  }
+
+}

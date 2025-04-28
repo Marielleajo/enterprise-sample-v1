@@ -1,0 +1,26 @@
+{
+  "translations": {
+    "signInPage.signIn": "Sign in",
+    "signInPage.forgetPassword": "Forget password",
+    "signInPage.success": "Success!",
+    "signInPage.verifyEmail": "Verify Email",
+    "signInPage.welcomeBack": "Welcome back",
+    "signInPage.resetPasswordText": "Enter your email and we’ll send you a link to reset password.",
+    "signInPage.emailSent": "An email with your username has been sent",
+    "signInPage.otpSent": "An OTP has been sent to your email. Please check your inbox for the password reset link.",
+    "signInPage.emailNotArrive": "If the email does not arrive soon, check your spam folder. It was sent to forgotpassword@montypay.com",
+    "signInPage.usernamePlaceholder": "Username",
+    "signInPage.passwordPlaceholder": "Password",
+    "signInPage.forgotPassword": "Forgot Password?",
+    "signInPage.loading": "Loading...",
+    "signInPage.backToLogin": "Back to log in",
+    "signInPage.resendOtp": "Resend Otp?",
+    "signInPage.montyPayTrademark": "MontyPay® is a registered trademark.",
+    "signInPage.preferencesPrivacy": "Cookie Preferences, Privacy",
+    "signInPage.terms": "Terms",
+    "signInPage.newPasswordPlaceholder": "New Password",
+    "signInPage.resetPassword": "Reset Password",
+    "signInPage.cancel": "Cancel",
+    "signInPage.otp": "OTP"
+  }
+}

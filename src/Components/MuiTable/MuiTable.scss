@@ -1,0 +1,127 @@
+@import "../../variables";
+
+#MuiTable {
+  width: 100%;
+  height: 100%;
+
+  * {
+    border: none !important;
+    font-size: 15px;
+  }
+
+  .MuiSelect-select {
+    padding: 5px !important;
+  }
+
+  svg.MuiSelect-icon {
+    display: block !important;
+    position: relative !important;
+  }
+
+  .empty {
+    height: 50vh;
+  }
+
+  .not-empty {
+    min-height: 50vh !important;
+  }
+
+  .MuiDataGrid-columnHeaders {
+    // background-color: #F4F4F4 !important;
+    border-radius: 50px;
+    background-color: #dedee3;
+    color: #505050 !important;
+  }
+
+  .MuiToolbar-root.MuiToolbar-gutters {
+    display: flex !important;
+  }
+
+  .MuiDataGrid-root .MuiDataGrid-row {
+    min-height: 37px !important;
+    max-height: 35px !important;
+    color: #505050 !important;
+  }
+
+  .MuiDataGrid-root .MuiDataGrid-columnHeaders {
+    min-height: 37px !important;
+    max-height: 35px !important;
+    color: #505050 !important;
+  }
+
+  .MuiDataGrid-virtualScroller {
+    overflow: hidden;
+    // overflow-y: auto;
+  }
+
+  .MuiDataGrid-cell,
+  .MuiDataGrid-cell--textLeft {
+    display: flex;
+  }
+
+  .MuiTablePagination-selectm,
+  p.MuiTablePagination-selectLabel,
+  p.MuiTablePagination-displayedRows {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Apply styles to all elements except those with class "no_design_scroll" */
+  &::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+    /* Set the scrollbar width as needed */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf !important;
+    /* Set the desired scrollbar thumb color */
+    border-radius: 4px !important;
+    /* Round the thumb's corners if needed */
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #888 !important;
+    /* Change the thumb's color on hover */
+  }
+
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1 !important;
+  /* Set the color of the scrollbar thumb and track */
+
+  .MuiFormControlLabel-root {
+    margin: 0 !important;
+  }
+
+  .remove-Icons {
+    .MuiDataGrid-iconButtonContainer,
+    .MuiDataGrid-menuIcon {
+      display: none !important;
+    }
+  }
+
+  .MuiDataGrid-columnHeader:focus,
+  .MuiDataGrid-cell:focus,
+  .MuiDataGrid-columnHeader:focus-within,
+  .MuiDataGrid-cell:focus-within {
+    outline: none !important;
+  }
+
+  .MuiCircularProgress-root {
+    color: $primary-color !important;
+  }
+
+  .css-54pwck-MuiCircularProgress-svg {
+    display: block;
+    color: $primary-color !important;
+  }
+
+  .MuiDataGrid-row {
+    // border-bottom: 1px solid rgba(217, 217, 217, 0.5) !important;
+  }
+}
+
+.MuiDataGrid-scrollbarContent {
+  display: none;
+}

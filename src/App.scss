@@ -1,0 +1,527 @@
+:root {
+  --body-back: #b4b4b4;
+  --textColor: #ffffff;
+  --odd-row: #f5f5f5;
+  --span-manage: #b3b3b3;
+  --btn-table: #939393;
+  --tooltip-back: rgba(255, 255, 255, 0.08);
+  --secondary-color: #ed204c;
+}
+
+html,
+main {
+  body {
+    background-color: var(--body-back);
+  }
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.link-style {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 25px;
+  letter-spacing: normal;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.custom-select-style {
+  border-radius: 32px !important;
+  border: none;
+  outline: none;
+  height: 45px;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: none !important;
+}
+
+
+.open-drawer {
+  .MuiDrawer-paper {
+    border-top-right-radius: 26px;
+    background-image: url("./Assets/Images/side-nav.png") !important;
+    background-color: transparent !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border: none;
+  }
+
+  .MuiDrawer-paper {
+    overflow-y: scroll;
+    scrollbar-color: #b2b2b2ab transparent;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+      width: 1px !important;
+      /* Set width to 1px to make the scrollbar very thin */
+      height: 1px !important;
+      /* Set height to 1px to make the scrollbar very thin */
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #b2b2b2ab;
+      border-radius: 100px;
+      /* Adjust the size of the thumb */
+      width: 1px !important;
+      height: 1px !important;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+}
+
+.close-drawer {
+
+  .MuiDrawer-paper {
+    border-top-right-radius: 26px;
+    background-image: url("./Assets/Images/mobile-side-nav.png") !important;
+    background-color: transparent !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border: none;
+  }
+
+  .MuiDrawer-paper {
+    overflow-y: scroll;
+    scrollbar-color: #b2b2b2ab transparent;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+      width: 1px !important;
+      /* Set width to 1px to make the scrollbar very thin */
+      height: 1px !important;
+      /* Set height to 1px to make the scrollbar very thin */
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #b2b2b2ab;
+      border-radius: 100px;
+      /* Adjust the size of the thumb */
+      width: 1px !important;
+      height: 1px !important;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+}
+
+.badge-notification {
+  .MuiBadge-badge {
+    color: var(--textColor);
+  }
+}
+
+.info-menu .MuiMenu-paper {
+  width: 30vw;
+}
+
+.div-item-close {
+  margin-inline: 5px;
+
+  .MuiListItem-root {
+    border-radius: 0.4rem;
+  }
+}
+
+// table
+
+.MuiDataGrid-columnHeader:focus,
+.css-ptkaw2-MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+
+.MuiDataGrid-root {
+  border-style: none !important;
+  border-bottom: none !important;
+}
+
+.MuiDataGrid-withBorderColor {
+  border-style: none !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+
+.MuiDataGrid-cell:focus-within {
+  outline: none !important;
+}
+
+.MuiDataGrid-row:nth-of-type(even) {
+  background-color: var(--textColor) !important;
+}
+
+.MuiDataGrid-row:nth-of-type(odd) {
+  background-color: var(--odd-row) !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  font-weight: bold !important;
+  font-size: 15px !important;
+}
+
+.MuiDataGrid-columnSeparator {
+  display: none !important;
+}
+
+.table-with-actions .MuiDataGrid-cell:last-child {
+  position: sticky;
+  right: 0;
+  background-color: var(--body-back);
+}
+
+// Modal
+
+span.manage-label {
+  color: var(--span-manage);
+  font-size: 15px;
+}
+
+.active-child-tooltip {
+  background-color: var(--tooltip-back) !important;
+  color: var(--textColor) !important;
+}
+
+.actions-table {
+  min-width: 0px !important;
+  color: var(--btn-table) !important;
+
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+///////
+///////
+///////
+// laoding stylign
+:root {
+  --hue: 223;
+  --sat: 90%;
+  --bg: hsl(var(--hue), var(--sat), 90%);
+  --fg: hsl(var(--hue), var(--sat), 10%);
+  --bar-light-t: 60%;
+  --bar-light-l: 50%;
+  --bar-light-r: 40%;
+  --bar-a-hue: 223;
+  --bar-a-t: #2b395d;
+  --bar-a-l: #2b395d;
+  --bar-a-r: #2b395d;
+  --bar-b-hue: 253;
+  --bar-b-t: #14669a;
+  --bar-b-l: #14669a;
+  --bar-b-r: #14669a;
+  --bar-c-hue: 283;
+  --bar-c-t: #00dfdf;
+  --bar-c-l: #00dfdf;
+  --bar-c-r: #00dfdf;
+  --bar-d-hue: 313;
+  --bar-d-t: #acd7cb;
+  --bar-d-l: #acd7cb;
+  --bar-d-r: #acd7cb;
+  --bar-shadow-op: 0.4;
+  --trans-dur: 0.3s;
+}
+
+.full-loader {
+  display: grid;
+  place-items: center;
+  font: 1em / 1.5 sans-serif;
+  height: 100vh;
+  transition: background-color var(--trans-dur), color var(--trans-dur);
+}
+
+$ease-in: cubic-bezier(0.33, 0, 0.67, 0);
+$ease-out: cubic-bezier(0.33, 1, 0.67, 1);
+
+.pl {
+  $debug: false;
+  $dur: 2s;
+
+  width: 12em;
+  height: 12em;
+
+  &,
+  &__bars {
+    @if $debug==true {
+      outline: 1px solid;
+    }
+
+    display: flex;
+  }
+
+  &__bars,
+  &__bar {
+    transform-style: preserve-3d;
+  }
+
+  &__bars {
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 8em;
+    height: 8em;
+    transform: translateY(2.75em) rotateX(60deg) rotateZ(-45deg);
+  }
+
+  &__bar {
+    position: relative;
+    width: 1em;
+    height: 1em;
+
+    &-t,
+    &-l,
+    &-r,
+    &-s {
+      animation: bounce-t $dur infinite;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform-origin: 0 0;
+    }
+
+    &-t {
+      top: 0;
+      transform: translateZ(1em);
+    }
+
+    &-l,
+    &-r,
+    &-s {
+      top: 100%;
+    }
+
+    &-l {
+      animation-name: bounce-l;
+      transform: rotateX(90deg) rotateY(-90deg);
+    }
+
+    &-r {
+      animation-name: bounce-r;
+      transform: rotateX(90deg);
+    }
+
+    &-s {
+      animation-name: bounce-s;
+      background-color: hsl(0, 0%, 0%);
+      box-shadow: 0 0 0.125em 0.125em hsl(0, 0%, 0%);
+      opacity: var(--bar-shadow-op);
+      left: 0.125em;
+      width: calc(100% - 0.25em);
+      height: calc(100% - 0.125em);
+      transition: opacity var(--trans-dur);
+    }
+
+    $bars: (0: a,
+      1: b,
+      2: c,
+      3: d,
+    );
+
+    @each $index,
+    $bar in $bars {
+      $child: $index + 1;
+
+      &:nth-child(#{$child}) &-t,
+      &:nth-child(#{$child}) &-l,
+      &:nth-child(#{$child}) &-r,
+      &:nth-child(#{$child}) &-s {
+        animation-delay: $dur * 0.05 * $index;
+      }
+
+      &:nth-child(#{$child}) &-t {
+        background-color: var(--bar-#{$bar}-t);
+      }
+
+      &:nth-child(#{$child}) &-l {
+        background-color: var(--bar-#{$bar}-l);
+      }
+
+      &:nth-child(#{$child}) &-r {
+        background-color: var(--bar-#{$bar}-r);
+      }
+    }
+  }
+}
+
+/* Animation */
+@keyframes bounce-t {
+
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: $ease-out;
+    transform: translateZ(1em);
+  }
+
+  10% {
+    animation-timing-function: $ease-in;
+    transform: translateZ(8em);
+  }
+
+  30% {
+    animation-timing-function: $ease-in;
+    transform: translateZ(4em);
+  }
+
+  50% {
+    animation-timing-function: $ease-in;
+    transform: translateZ(2em);
+  }
+
+  70% {
+    animation-timing-function: $ease-in;
+    transform: translateZ(1.5em);
+  }
+}
+
+@keyframes bounce-l {
+
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: $ease-out;
+    transform: rotateX(90deg) rotateY(-90deg) scaleY(1);
+  }
+
+  10% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) rotateY(-90deg) scaleY(8);
+  }
+
+  30% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) rotateY(-90deg) scaleY(4);
+  }
+
+  50% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) rotateY(-90deg) scaleY(2);
+  }
+
+  70% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) rotateY(-90deg) scaleY(1.5);
+  }
+}
+
+@keyframes bounce-r {
+
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: $ease-out;
+    transform: rotateX(90deg) scaleY(1);
+  }
+
+  10% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) scaleY(8);
+  }
+
+  30% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) scaleY(4);
+  }
+
+  50% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) scaleY(2);
+  }
+
+  70% {
+    animation-timing-function: $ease-in;
+    transform: rotateX(90deg) scaleY(1.5);
+  }
+}
+
+@keyframes bounce-s {
+
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: $ease-out;
+    transform: scaleY(0.5);
+  }
+
+  10% {
+    animation-timing-function: $ease-in;
+    transform: scaleY(4);
+  }
+
+  30% {
+    animation-timing-function: $ease-in;
+    transform: scaleY(2);
+  }
+
+  50% {
+    animation-timing-function: $ease-in;
+    transform: scaleY(1);
+  }
+
+  70% {
+    animation-timing-function: $ease-in;
+    transform: scaleY(0.75);
+  }
+}
+
+///////

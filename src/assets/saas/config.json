@@ -1,0 +1,19 @@
+{
+  "config": [
+    {
+      "path": [
+        "app.montymobile.com",
+        "mm-omni-software-qa.montylocal.net",
+        "mm-omni-software-dev.montylocal.net"
+      ],
+      "name": "montymobile"
+    },
+    {
+      "path": [
+        "mm-omni-software-comium-qa.montylocal.net",
+        "mm-omni-software-comium-dev.montylocal.net"
+      ],
+      "name": "comium"
+    }
+  ]
+}

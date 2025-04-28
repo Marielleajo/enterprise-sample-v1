@@ -1,0 +1,75 @@
+.sms-overlay {
+    transition: all 0.5s ease;
+    position: Fixed;
+    top: 50px;
+    left: 5px;
+    width: calc(100% - 320px);
+    height: calc(100% - 60px);
+    z-index: 999 !important;
+    background-color: transparent;
+
+    .form-control,
+    .md-form label {
+        color: #000 !important;
+    }
+
+    .inside-x {
+        right: 0px;
+        left: auto !important;
+        top: -30px;
+        z-index: 9999;
+        position: absolute !important;
+        line-height: 20px !important;
+    }
+
+    &.close {
+        transform: translateX(-100%);
+        visibility: hidden;
+    }
+
+    &.top {
+        z-index: 999999 !important;
+    }
+}
+
+.sms-sidebar {
+    transition: all 0.25s ease;
+    position: Fixed;
+    top: 0 !important;
+    right: 0;
+    background-color: #f7f7f7ee;
+    width: 320px;
+    height: 100vh;
+    overflow: visible !important;
+    z-index: 99999 !important;
+
+    &.close {
+        transform: translateX(100%);
+        visibility: hidden;
+    }
+
+    .sms-sidebar-bottom {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+    }
+
+    .clear-tbn {
+        background-color: transparent !important;
+        border: none;
+        box-shadow: none;
+        font-family: Roboto, sans-serif;
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #c4cc2e;
+    }
+
+    .clear-tbn:hover {
+        border: none !important;
+    }
+}

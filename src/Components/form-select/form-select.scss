@@ -1,0 +1,37 @@
+.form-select{
+    height:42px;
+    padding:0 15px;
+    line-height: 42px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #81838c;
+    color:#000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width:100%;
+    font-weight: 300;
+    margin:0 0 12px 0;
+    &:focus{
+        border: 1px solid #e8e9ec;
+        outline: none;
+    }
+}
+
+.form-select-new{
+    height:42px;
+    padding:0 10px;
+    line-height: 42px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #e8e9ec;
+    color:#000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width:100%;
+    font-weight: 300;
+    margin:0 0 12px 0;
+    &:focus{
+        border: 1px solid #e8e9ec;
+        outline: none;
+    }
+}

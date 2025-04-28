@@ -1,0 +1,164 @@
+
+@mixin shrinkLabel {
+    top: -10px;
+    font-size: 12px;
+}
+
+.form-input{
+    height:42px;
+    padding:15px 66px 15px 15px;
+    line-height: 42px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #dadce0 !important;
+    color:#000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width:100%;
+    margin:0 0 12px 0;
+    font-weight: 300;
+    &:focus {
+        outline: none;
+    }
+    &:focus ~ .form-input-label {
+        @include shrinkLabel();
+        outline: none;
+        background: #fff;
+        padding: 0 3px;
+    }
+}
+
+.error.form-input{
+    border: 1px solid #850808 !important;
+}
+
+.form-input-label {
+    font-size: 15px;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 10px;
+    transition: 300ms ease all;
+    color: #757575;
+    font-weight: 300;
+    margin-bottom: 0;
+    &.shrink {
+      @include shrinkLabel();
+      background: #fff;
+      padding: 0 3px;
+    }
+  }
+.show-char-length{
+    color: #cecfd0;
+    top: 12px;
+    right: 13px;
+    font-size: 13px;
+}
+.text-area .show-char-length{
+    color: #cecfd0;
+    bottom: 24px;
+    top: inherit;
+    right: 19px;
+    font-size: 13px;
+    background: #fff;
+}
+.primary-button{
+    background-color: #00afce !important;
+    border-radius: 5px;
+    height:42px;
+    min-width: 150px;
+    margin: 0;
+}
+button.btn.primary-button-new{
+    background-color: #850808 !important;
+    border: 1px solid #850808 !important;
+    border-radius: 5px;
+    height: 42px;
+    min-width: 77px;
+    margin: 16px 6px 0 0 !important;
+    font-size: 12px;
+    float: left !important;
+}
+button.btn.primary-button-new:hover{
+    background-color: #fff !important;
+    border: 1px solid #850808 !important;
+    color: #850808 !important;
+}
+.dark-button{
+    background-color: #000 !important;
+    border-radius: 5px;
+    height:42px;
+    min-width: 150px;
+    margin: 0;
+}
+.secondary-button{
+    background-color: #ffd239 !important;
+    border-radius: 5px;
+    text-transform: none;
+    padding: 8px 15px !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #ffbe21;
+}
+.outline-btn{
+    border-radius: 5px;
+    border: 1px solid #007bff !important;
+    min-width: 150px;
+    margin: 0;
+    height: 42px;
+}
+.game-checkbox .form-check{
+    padding-left: 0;
+}
+.game-date-picker{
+    width: 100%;
+    & .md-form{
+        margin: 0;
+        line-height: 42px;
+        border: 1px solid #e8e9ec;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        height: 42px;
+        & input{
+            border-bottom: 0px;
+        }
+        & :hover{
+            border-bottom: 0;
+        }
+        & .MuiInput-underline{
+            border-bottom: 0;
+            &:before{
+                border-bottom: 0px;
+            }
+            
+        }
+    }
+}
+
+.other-billing-type-cont{
+    & .form-check-label{
+        padding-left:25px !important;
+        font-size:14px;
+    }
+}
+.select-wrapper input.select-dropdown{
+    border-top: 1px solid #e8e9ec !important;
+    border-left: 1px solid #e8e9ec !important;
+    border-right: 1px solid #e8e9ec !important;
+    border-radius: 5px !important;
+    padding-left: 16px;
+    box-sizing: border-box !important;  
+}
+.select-wrapper span.caret{
+    right:8px;
+}
+.react-bootstrap-table .caret{
+    opacity: 0.3;
+}
+.react-bootstrap-table-sort-order .caret{
+    opacity: 1;
+}
+
+.form-input-loader{
+    
+}

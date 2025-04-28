@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #dddfe7;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #dddfe7;
+      }
+
+      .cls-4 {
+        fill: #f0f2f8;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="icon_upload" transform="translate(-0.214)">
+    <g id="Ellipse_39" data-name="Ellipse 39" class="cls-1" transform="translate(0.214)">
+      <circle class="cls-5" cx="40.5" cy="40.5" r="40.5"/>
+      <circle class="cls-6" cx="40.5" cy="40.5" r="40"/>
+    </g>
+    <g id="Ellipse_40" data-name="Ellipse 40" class="cls-2" transform="translate(6.079 5.749)">
+      <circle class="cls-5" cx="34.645" cy="34.645" r="34.645"/>
+      <circle class="cls-6" cx="34.645" cy="34.645" r="33.145"/>
+    </g>
+    <circle id="Ellipse_41" data-name="Ellipse 41" class="cls-3" cx="27.885" cy="27.885" r="27.885" transform="translate(12.839 12.509)"/>
+    <path id="Path_344" data-name="Path 344" class="cls-4" d="M22.258,12.3,12.623.574a1.707,1.707,0,0,0-2.638,0L.349,12.3a1.708,1.708,0,0,0,1.319,2.8H6.515V30.326a1.7,1.7,0,0,0,1.706,1.706h6.166a1.7,1.7,0,0,0,1.706-1.706V15.1h4.846A1.708,1.708,0,0,0,22.258,12.3Z" transform="translate(29.221 24.614)"/>
+  </g>
+</svg>

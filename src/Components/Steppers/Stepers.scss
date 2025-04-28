@@ -1,0 +1,60 @@
+.stepers-container{
+    display: table;
+    margin: 0 auto;
+    & .stepers ul{
+        padding: 0;
+        list-style-type: none;
+        justify-content: space-between;
+        & li{
+            z-index: 1;
+            padding: 0 10px;
+            background: #fff;
+        }
+        & li span.step-nav{
+            width: 40px;
+            height: 40px;
+            border: 1px solid rgba(153, 153, 153, 0.3);
+            background-color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            overflow: hidden;
+            z-index: 2;
+            color: #6c757d;
+            &.active{
+                background-color: #850808;
+                color:#fff;
+            }
+            &.completed{
+                background: #ffd239;
+                border:1px solid #ffd239;
+                color:#fff;
+            } 
+        }
+        & .step-label{
+            display: inline-block;
+            width: 108px;
+            left: 0;
+            transform: translate(-21%, 0);
+            top: 46px;
+            font-size: 14px;
+            text-align: center;
+            background: none;
+            &.active{
+                color: #850808;
+            }
+            &.completed{
+                color: #6c757d;
+            }
+        }
+    }
+    & .d-flex:before{
+        top: 20px;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 100%;
+        height: 1px;
+        background-color: rgba(153, 153, 153, 0.3);
+    }
+}

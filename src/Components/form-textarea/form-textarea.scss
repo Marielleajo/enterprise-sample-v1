@@ -1,0 +1,28 @@
+@mixin shrinkLabel {
+    top: -10px;
+    font-size: 12px;
+}
+.form-input-text-area{
+    padding:15px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #81838c;
+    color:#000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width:100%;
+    margin:0 0 6px 0;
+    font-weight: 300;
+    &::-webkit-input-placeholder{
+        color:#c0c1c5;
+    }
+    &:focus {
+        outline: none;
+    }
+    &:focus ~ .form-input-label {
+        @include shrinkLabel();
+        outline: none;
+        background: #fff;
+        padding: 0 3px;
+    }
+}

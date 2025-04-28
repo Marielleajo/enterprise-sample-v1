@@ -1,0 +1,71 @@
+#async-menu-style {
+
+    /* Remove border */
+    .css-yk16xz-control {
+        border: none !important;
+        box-shadow: none !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+        background: transparent;
+    }
+
+    /* Remove arrow */
+    .css-1hb7zxy-IndicatorsContainer {
+        display: none;
+    }
+
+}
+#custom-async-menu-style {
+
+    /* Remove border */
+    .css-yk16xz-control {
+        border: none !important;
+        box-shadow: none !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+        background: transparent;
+        border-radius: 0;
+    }
+
+    /* Remove arrow */
+    .css-1hb7zxy-IndicatorsContainer {
+        display: none;
+    }
+
+}
+
+.clientName-hover {
+    cursor: pointer;
+    font-weight: bold;
+
+    &:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+.live-data-select {
+    .MuiSelect-select {
+        padding-right: 17px !important;
+    }
+}
+
+.kpi-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid #f7f7f7 !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px !important;
+  
+    .kpi-titles {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+    .kpi-values {
+      font-size: 18px;
+      font-weight: bold;
+      color: red;
+    }
+  }

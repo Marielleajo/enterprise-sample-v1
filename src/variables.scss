@@ -1,0 +1,15 @@
+// In your React component or SCSS file
+:root {
+  --primary-color: #c41035;
+  --secondary-color: #4203ee;
+  --grey-color: #5e5e5e2d;
+  --black-color: #000;
+  --text-white-color: #ffffff;
+}
+
+// Define your global color variables using custom properties
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$grey-color: var(--grey-color);
+$black-color: var(--black-color);
+$white-color: var(--text-white-color);

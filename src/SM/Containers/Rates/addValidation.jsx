@@ -1,0 +1,27 @@
+import * as Yup from "yup";
+
+const addValidationSchema = Yup.object().shape({
+  clientCategory: Yup.object().required("Client Category is required"),
+  country: Yup.object().required("Country is required"),
+  currency: Yup.string().required("Currency is required"),
+  rate: Yup.string()
+    .required("Rate is required")
+    .test("is-valid-number", "Rate must be a valid number", (value) => {
+      if (!value) return false;
+
+      // Check if the value is a valid number
+      return !isNaN(value);
+    })
+    .test(
+      "max-digits",
+      "Rate must have a maximum of 15 digits in total",
+      (value) => {
+        if (!value) return true;
+
+        const cleanValue = value.replace(".", ""); // Remove the decimal point
+        return cleanValue.length <= 15;
+      }
+    ),
+});
+
+export default addValidationSchema;

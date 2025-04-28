@@ -1,0 +1,40 @@
+// AccordionComponent.scss
+
+.custom-accordion {
+  border: 1px solid rgba(0, 0, 0, 0.125); // You can define the border color here
+  &:not(:last-child) {
+    border-bottom: 0;
+  }
+  &:before {
+    display: none;
+  }
+  &.expanded {
+    // Define styles when the Accordion is expanded
+  }
+}
+
+.custom-summary {
+  background-color: rgba(0, 0, 0, 0.03); // Change the background color here
+  display: flex;
+  >div{
+    align-items: center;
+  justify-content: space-between !important;
+    
+  }
+  svg{
+    margin-left: .5rem;
+  }
+  &.Mui-expanded {
+    svg.expand-icon{
+      transform: rotate(90deg);
+    }
+  }
+  .expand-icon {
+    font-size: 0.9rem;
+  }
+}
+
+.custom-details {
+  padding: 16px; // Adjust the padding here
+  border-top: 1px solid rgba(0, 0, 0, 0.125); // Define the border color here
+}
